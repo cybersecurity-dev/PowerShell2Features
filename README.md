@@ -1,3 +1,5 @@
+<div align="center">
+
 ```mermaid
 flowchart LR
     PS["PowerShell Script"]
@@ -120,3 +122,43 @@ flowchart LR
 ```
 
 # **`PS2Features`** | PowerShell Feature Extraction Framework for Malware Detection
+</div>
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
+
+<p align="center">
+    <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
+    &nbsp;
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    &nbsp;
+    <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
+    <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
+</p>
+
+
+## Extraction Framework
+
+| Extracted Feature | [Parser Class](https://learn.microsoft.com/en-us/dotnet/api/system.management.automation.language.parser) | [PSScriptAnalyzer](https://learn.microsoft.com/en-us/powershell/utility-modules/psscriptanalyzer/overview?view=ps-modules) | [PSParser Class](https://learn.microsoft.com/en-us/dotnet/api/system.management.automation.psparser) | [tree-sitter-powershell](https://github.com/airbus-cert/tree-sitter-powershell) | [Semgrep](https://semgrep.dev/) | [Joern](https://joern.io/) | [Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| String and Literal Extraction | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ✅ |
+| Comment Extraction | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ✅ |
+| Token Extraction | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ |
+| Variable Extraction | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ |
+| Function Extraction | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ |
+| Parameter Extraction | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ |
+| Cmdlet and Command Extraction | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
+| Alias Extraction and Resolution | ⚠️ | ✅ | ⚠️ | ⚠️ | ⚠️ | ❌ | ⚠️ |
+| Module and Dependency Extraction | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ |
+| .NET API Call Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ |
+| Native Executable Call Extraction | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
+| WMI and CIM Call Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Registry Operation Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| File-System Operation Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Network Operation Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Process-Creation Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Scheduled-Task and Service Extraction | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Encoded Command Detection | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ | ✅ |
+| Obfuscation Indicator Extraction | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ | ✅ |
+| Dynamic Execution Detection | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
+| Download-and-Execute Pattern Detection | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ | ✅ |
