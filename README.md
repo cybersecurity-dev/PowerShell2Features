@@ -136,6 +136,13 @@ flowchart LR
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+## 📖 Contents
+- [Installation Steps](#installation-steps)
+- [My Awesome Lists](#my-awesome-lists)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+
+## Installation Steps
 
 ## Extraction Framework
 
@@ -162,3 +169,20 @@ flowchart LR
 | Obfuscation Indicator Extraction | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ | ✅ |
 | Dynamic Execution Detection | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ |
 | Download-and-Execute Pattern Detection | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ | ✅ |
+
+
+##
+
+### My Awesome Lists
+You can access the my awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
+
+### Contributing
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+[Thanks goes to these contributors](https://github.com/cybersecurity-dev/PS2Features/graphs/contributors)!
+
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
+
+[🔼 Back to top](#ps2features--powershell-feature-extraction-framework-for-malware-detection)
